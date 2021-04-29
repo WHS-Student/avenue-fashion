@@ -1,0 +1,120 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: white;
+}
+
+/*=============================
+            HEADER
+=============================*/
+
+.login-header {
+    background-color: gray;
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20%;
+}
+
+.login-header a {
+    color: white;
+    text-decoration: none;
+}
+
+.fixed-width {
+    width: 880px;
+    margin:  0 auto;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.navHeader {
+    float: right;
+}
+
+.navHeader a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.page-header {
+    
+}
+
+    .page-header > div {
+
+    }
+
+    .page-header nav li {
+        float: left;
+        margin-right: 3em;
+        padding-bottom: 20px;
+    }
+
+.nameLogo {
+    padding-left: 10%;
+}
+
+.siteLogo {
+    margin-left: 10%;
+}
+
+/*=============================
+            DEVISOR
+=============================*/
+
+hr {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/*=============================
+            FOOTER
+=============================*/
+
+footer {
+    background-color: white;
+    padding-top: 100px;
+}
+
+#AwardWinnerBox {
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    padding: 25px 5px 25px 5px;
+    width: 25%;  
+    margin-bottom: 10px;
+    margin-left: 20%;
+    
+}
+
+#SocialMediaBox {
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    background-color: cyan;
+    color: white;
+    padding: 25px 5px 25px 5px;
+    width: 25%;   
+    margin-bottom: 10px;
+    margin-left: 55%;
+}
+
+#copyrightFooter {
+    background-color: gray;
+    color: lightgray;
+    padding-left: 20%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
